@@ -92,10 +92,10 @@ let carModels = [];
 let carModelsSorted = [];
 
 for(let i = 0; i < inventory.length; i++){
-  carModels.push(inventory[i].car_model)
+  carModels.push(inventory[i].car_model);
 }
 
-carModelsSorted = carModels.sort()
+carModelsSorted = carModels.sort();
 
 console.log(carModelsSorted);
 
@@ -104,7 +104,7 @@ console.log(carModelsSorted);
 let carYears = [];
 
 for(let i = 0; i < inventory.length; i++){
-  carYears.push(inventory[i].car_year)
+  carYears.push(inventory[i].car_year);
 }
 
 console.log(carYears);
@@ -127,7 +127,7 @@ let BMWAndAudi = [];
 
 for(let i = 0; i < inventory.length; i++){
   if(inventory[i].car_make === 'BMW' || inventory[i].car_make === 'Audi'){
-    BMWAndAudi.push(inventory[i])
+    BMWAndAudi.push(inventory[i]);
   }
 }
 console.log(JSON.stringify(BMWAndAudi));
